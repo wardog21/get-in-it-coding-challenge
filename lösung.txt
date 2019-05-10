@@ -1,1 +1,1 @@
-Route: [18, 810, 595, 132, 519, 71, 432, 246]  Gesamtentfernung: 2.9956878959994584
+Route: ['Erde', 'node_810', 'node_595', 'node_132', 'node_519', 'node_71', 'node_432', 'b3-r7-r4nd7']  Gesamtentfernung: 2.9956878959994584
