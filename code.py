@@ -55,4 +55,9 @@ while current_route:
 	my_route.append(current_route)
 	current_route = route[current_route]
 
-print("Route:", list(reversed(my_route)), " Gesamtentfernung:", (nodes[target_node]-nodes[start_node]))
+planets = []
+
+for node in list(reversed(my_route)):
+	planets.append(graph["nodes"][node]["label"])
+
+print("Route:", planets, " Gesamtentfernung:", (nodes[target_node]-nodes[start_node]))
